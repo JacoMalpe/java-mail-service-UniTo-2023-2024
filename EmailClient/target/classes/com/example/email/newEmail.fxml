@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.email.controller.NewEmailController">
+   <children>
+      <Label layoutX="20.0" layoutY="15.0" text="A:" />
+      <Label layoutX="20.0" layoutY="59.0" prefHeight="17.0" prefWidth="60.0" text="Oggetto:" />
+      <TextField fx:id="textFieldReceivers" layoutX="80.0" layoutY="10.0" prefHeight="26.0" prefWidth="500.0" />
+      <TextField fx:id="textFieldSubject" layoutX="80.0" layoutY="54.0" prefHeight="26.0" prefWidth="500.0" />
+      <TextArea fx:id="textAreaMessage" layoutX="20.0" layoutY="100.0" prefHeight="250.0" prefWidth="560.0" />
+      <Button fx:id="buttonSend" layoutX="273.0" layoutY="361.0" mnemonicParsing="false" onAction="#sendEmail" text="Invia" />
+   </children>
+</AnchorPane>
